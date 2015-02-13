@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-js": "browserify index.js -t 6to5ify | uglifyjs --compress > build.js",
     "watch-js": "watchify index.js -t 6to5ify --debug --verbose -o build.js",
-    "dev": "npm run watch-js & browser-sync start --server --files \"build.js, index.html\""
+    "dev": "npm run watch-js & browser-sync start --server --files \"build.js, index.html\"",
+    "build": "npm run build-js"
   },
   "keywords": [
     "boilerplate",
