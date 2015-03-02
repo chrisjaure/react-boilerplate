@@ -2,6 +2,11 @@
   "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "React ES6 Browserify boilerplate",
+  "repository" :
+    {
+      "type" : "git",
+      "url" : "http://github.com/chrisjaure/react-boilerplate.git"
+    },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
