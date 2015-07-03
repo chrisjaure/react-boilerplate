@@ -12,6 +12,12 @@ npm run dev
 Usage
 -----
 
-`npm run dev` to start a dev server that will watch for changes.
+`npm run dev` - start a dev server that will watch for changes
 
-`npm run build` to build production quality js.
+`npm run build` - build production file to `dist`
+
+`npm run lint --silent` - run the linter
+
+`npm test` - run the tests
+
+`npm watch:test` - watch the tests and src to run on changes
